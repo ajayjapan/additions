@@ -12,4 +12,7 @@
 
 + (UIBarButtonItem*)barItemWithImage:(UIImage*)image target:(id)target action:(SEL)action;
 
++ (UIBarButtonItem*)barItemWithImage:(UIImage*)image downImage:(UIImage*)image target:(id)target action:(SEL)action;
+
+
 @end
